@@ -37,7 +37,7 @@ This thesis establishes both rigorous upper and lower bounds for $p_c$ and provi
 
 - **State space:** {0,1}<sup>N</sup> on a 1D ring with periodic boundary conditions.
 - **Update rule:** Bernoulli(p) resampling of a chosen zero (or random if none) and its two neighbours.
-- **Measured quantity:** Stationary fraction of zeros $$Z = \frac{1}{N} \sum_i \mathbf{1}_{\{X_i = 0\}}$$.
+- **Measured quantity:** Stationary fraction of zeros $$Z = \frac{1}{N} \sum_i \mathbf{1}_{\{X_i = 0\}}$$ for $X_i$ the fitness of species at index $i$.
 - **Burn-in:** First 20–40% of iterations discarded before averaging.
 
 ### Example Results
